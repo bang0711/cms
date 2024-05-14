@@ -1,4 +1,3 @@
-
 export default function ApiPage() {
   return (
     <main className="flex w-full mt-[1rem] flex-col items-center justify-between ">
@@ -23,7 +22,7 @@ export default function ApiPage() {
             </pre>
           </div>
           <div className="flex flex-col justify-center items-start w-full gap-3">
-          <h2 className="mt-10 scroll-m-20 border-b pb-2 text-xl font-semibold tracking-tight transition-colors first:mt-0">
+            <h2 className="mt-10 scroll-m-20 border-b pb-2 text-xl font-semibold tracking-tight transition-colors first:mt-0">
               GET - Retrieve All Slugs
             </h2>
             <pre className="bg-gray-950 p-4 rounded-md max-w-[600px]">
@@ -40,7 +39,7 @@ export default function ApiPage() {
             </pre>
           </div>
           <div className="flex flex-col justify-center items-start w-full gap-3">
-          <h2 className="mt-10 scroll-m-20 border-b pb-2 text-xl font-semibold tracking-tight transition-colors first:mt-0">
+            <h2 className="mt-10 scroll-m-20 border-b pb-2 text-xl font-semibold tracking-tight transition-colors first:mt-0">
               POST - Retrieve Article By Slugs
             </h2>
             <pre className="bg-gray-950 p-4 rounded-md max-w-[600px]">
@@ -59,5 +58,6 @@ export default function ApiPage() {
           </div>
         </div>
       </div>
-    </main >)
+    </main>
+  );
 }
